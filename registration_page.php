@@ -74,3 +74,16 @@ if(isset($_POST["u"])){
     $cryptpass = crypt($p);
     //include_once ("php_includes/randStrGen.php");
     $p_hash = $cryptpass;
+    $sql = "INSERT INTO members (firstname, lastname,username, email, password)
+                VALUES('$fn','$ln','$u','$e','$p_hash')";
+
+        //$sql = "INSERT INTO members (username, email, password, gender, country, ip, signup, lastlogin, notescheck) VALUES('$u','$e','$p_hash','$g','$c','$ip',now(),now(),now())";
+        $query = mysqli_query($db_conx, $sql);
+        $uid = mysqli_insert_id($db_conx);
+        // Establish their row in the useroptions table
+        $sql = "INSERT INTO useroptions (id, username, background) VALUES ('$uid','$u','original')";
+        $query = mysqli_query($db_conx, $sql);
+        // Create directory(folder) to hold each user's files(pics, MP3s, etc.)
+        if (!file_exists("user/$u")) {
+          mkdir("user/$u", 0755);
+        }
