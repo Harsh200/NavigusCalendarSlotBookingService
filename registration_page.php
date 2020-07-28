@@ -30,3 +30,47 @@ if(isset($_POST["usernamecheck"])){
     }
 }
 ?><?php
+if(isset($_POST["u"])){
+  // CONNECT TO THE DATABASE
+  include_once("php_include/connection1.php");
+  // GATHER THE POSTED DATA INTO LOCAL VARIABLES
+  $fn = preg_replace('#[^a-z0-9]#i', '', $_POST['fn']);
+  $ln = preg_replace('#[^a-z0-9]#i', '', $_POST['ln']);
+  $u = preg_replace('#[^a-z0-9]#i', '', $_POST['u']);
+  $e = mysqli_real_escape_string($db_conx, $_POST['e']);
+  $p = $_POST['p'];
+  //$g = preg_replace('#[^a-z]#', '', $_POST['g']);
+  //$c = preg_replace('#[^a-z ]#i', '', $_POST['c']);
+  // GET USER IP ADDRESS
+    //$ip = preg_replace('#[^0-9.]#', '', getenv('REMOTE_ADDR'));
+  // DUPLICATE DATA CHECKS FOR USERNAME AND EMAIL
+  $sql = "SELECT member_id FROM members WHERE username='$u' LIMIT 1";
+  $query = mysqli_query($db_conx, $sql);
+  $u_check = mysqli_num_rows($query);
+  // -------------------------------------------
+  $sql = "SELECT member_id FROM members WHERE email='$e' LIMIT 1";
+    $query = mysqli_query($db_conx, $sql);
+  $e_check = mysqli_num_rows($query);
+  // FORM DATA ERROR HANDLING
+  if($fn == "" || $ln == "" || $u == "" || $e == "" || $p == ""){
+    echo "The form submission is missing values.";
+        exit();
+  } else if ($u_check > 0){
+        echo "The username you entered is already taken";
+        exit();
+  } else if ($e_check > 0){
+        echo "That email address is already in use in the system";
+        exit();
+  } else if (strlen($u) < 3 || strlen($u) > 16) {
+        echo "Username must be between 3 and 16 characters";
+        exit();
+    } else if (is_numeric($u[0])) {
+        echo 'Username cannot begin with a number';
+        exit();
+    } else {
+  // END FORM DATA ERROR HANDLING
+      // Begin Insertion of data into the database
+    // Hash the password and apply your own mysterious unique salt
+    $cryptpass = crypt($p);
+    //include_once ("php_includes/randStrGen.php");
+    $p_hash = $cryptpass;
