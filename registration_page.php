@@ -124,3 +124,20 @@ if(isset($_POST["u"])){
          }
          tf.value = tf.value.replace(rx, "");
        }
+       function emptyElement(x){
+         _(x).innerHTML = "";
+       }
+       // ajax request to check username is available and meet criteria as it's typed in.
+       function checkusername(){
+         var u = _("username").value;
+         if(u != ""){
+           _("unamestatus").innerHTML = 'checking ...';
+           var ajax = ajaxObj("POST", "registration_page.php");
+               ajax.onreadystatechange = function() {
+                 if(ajaxReturn(ajax) == true) {
+                     _("unamestatus").innerHTML = ajax.responseText;
+                 }
+               }
+               ajax.send("usernamecheck="+u);
+         }
+       }
