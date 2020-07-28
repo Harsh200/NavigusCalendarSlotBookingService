@@ -10,5 +10,10 @@
 </head>
 <body>
 <?php include_once("page_header.php"); ?>
+<div id="main">
+	<h3>Welcome to the Calendar Based Slot Booking system. Please click <a href="login_page.php">here</a> to login and make an appointment.</h3>
+
+
+</div>
 </body>
 </html>
