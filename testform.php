@@ -34,3 +34,14 @@ function emptyElement(x){
  }
  </script>
  </head>
+ <body>
+
+ 	<form id="registration_form" name="registration_form" onsubmit="return false;">
+ 		<br /><label class="labelwidth" for="username">Username:</label>
+ 		<input type="text" id="username" onblur="checkusername()" onkeyup="restrict('username')" maxlength="16">
+ 		<span id="unamestatus"></span>
+ 		<br /><br /><div id="status"></div>
+ 		<br /><button id="registerbtn" onclick="signup()">Register</button>
+ 	</form>
+ </body>
+ </html>
