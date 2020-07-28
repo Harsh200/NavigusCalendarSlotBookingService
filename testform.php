@@ -16,3 +16,6 @@ function restrict(elem){
           }
           tf.value = tf.value.replace(rx, "");
         }
+function emptyElement(x){
+   _(x).innerHTML = "";
+ }
