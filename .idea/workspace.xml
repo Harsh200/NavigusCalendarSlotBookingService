@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bef6ef98-4c3e-484f-b9d4-c5bf544c265a" name="Default Changelist" comment="" />
+    <list default="true" id="bef6ef98-4c3e-484f-b9d4-c5bf544c265a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/calendarViewCorrect.php" beforeDir="false" afterPath="$PROJECT_DIR$/calendarViewCorrect.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595934789779</updated>
-      <workItem from="1595934791936" duration="7700000" />
+      <workItem from="1595934791936" duration="8013000" />
     </task>
     <task id="LOCAL-00001" summary="Creating test folder for our application">
       <created>1595935154899</created>
@@ -328,14 +330,20 @@
       <option name="project" value="LOCAL" />
       <updated>1595942054967</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="adding calendar views">
+      <created>1595944360033</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1595944360033</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="creating header and giving link for registration page" />
     <MESSAGE value="creating login page" />
     <MESSAGE value="providing link for registration.css page" />
     <MESSAGE value="some change in doc document" />
@@ -360,13 +368,14 @@
     <MESSAGE value="function to empty the didv at the bottomg of the page when the user interacts with the email field" />
     <MESSAGE value="request to check username is available and meet criteria as it's typed in." />
     <MESSAGE value="test form" />
-    <option name="LAST_COMMIT_MESSAGE" value="test form" />
+    <MESSAGE value="adding calendar views" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding calendar views" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1595942053873">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1595944358657">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595942053873" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595944358657" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1595934804322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
