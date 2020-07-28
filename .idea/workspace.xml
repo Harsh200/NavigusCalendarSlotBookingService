@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bef6ef98-4c3e-484f-b9d4-c5bf544c265a" name="Default Changelist" comment="" />
+    <list default="true" id="bef6ef98-4c3e-484f-b9d4-c5bf544c265a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/weekTest.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,14 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595934789779</updated>
-      <workItem from="1595934791936" duration="10870000" />
-    </task>
-    <task id="LOCAL-00005" summary="creating second table">
-      <created>1595935939647</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1595935939647</updated>
+      <workItem from="1595934791936" duration="11258000" />
     </task>
     <task id="LOCAL-00006" summary="creating third table">
       <created>1595936013972</created>
@@ -391,14 +386,20 @@
       <option name="project" value="LOCAL" />
       <updated>1595947365276</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="code for produce tomorrow day">
+      <created>1595947647700</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1595947647700</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="reference to registration page with doctype html" />
     <MESSAGE value="form validation for checking chars in email and username" />
     <MESSAGE value="signup function" />
     <MESSAGE value="open terms function and adding events" />
@@ -423,13 +424,14 @@
     <MESSAGE value="array for weekdays with date" />
     <MESSAGE value="adding closing braces" />
     <MESSAGE value="insert into database here and choose to connect and insert into the database goes here" />
-    <option name="LAST_COMMIT_MESSAGE" value="insert into database here and choose to connect and insert into the database goes here" />
+    <MESSAGE value="code for produce tomorrow day" />
+    <option name="LAST_COMMIT_MESSAGE" value="code for produce tomorrow day" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="331" y="0" key="CommitChangelistDialog2" timestamp="1595947363746">
+    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1595947645435">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595947363745" />
+    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595947645435" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1595934804322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -442,9 +444,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="415" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595934885582" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595946801691">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595947783437">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595946801691" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595947783437" />
   </component>
 </project>
