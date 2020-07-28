@@ -22,7 +22,5 @@
 
 	<p>Please click <a href="index.php">here</a> to return to the homepage</p>
 </div>
-
-
 </body>
 </html>
