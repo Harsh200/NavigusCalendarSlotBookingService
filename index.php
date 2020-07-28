@@ -9,5 +9,6 @@
 </script>
 </head>
 <body>
+<?php include_once("page_header.php"); ?>
 </body>
 </html>
