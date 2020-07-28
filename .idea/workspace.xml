@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bef6ef98-4c3e-484f-b9d4-c5bf544c265a" name="Default Changelist" comment="" />
+    <list default="true" id="bef6ef98-4c3e-484f-b9d4-c5bf544c265a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/test/tabletest.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/tabletest.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595934789779</updated>
-      <workItem from="1595934791936" duration="950000" />
+      <workItem from="1595934791936" duration="1259000" />
     </task>
     <task id="LOCAL-00001" summary="Creating test folder for our application">
       <created>1595935154899</created>
@@ -62,7 +64,42 @@
       <option name="project" value="LOCAL" />
       <updated>1595935406822</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="title">
+      <created>1595935775702</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595935775702</updated>
+    </task>
+    <task id="LOCAL-00004" summary="creating first table">
+      <created>1595935885416</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595935885416</updated>
+    </task>
+    <task id="LOCAL-00005" summary="creating second table">
+      <created>1595935939647</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595935939647</updated>
+    </task>
+    <task id="LOCAL-00006" summary="creating third table">
+      <created>1595936013972</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595936013972</updated>
+    </task>
+    <task id="LOCAL-00007" summary="third table created">
+      <created>1595936062358</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595936062358</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,13 +108,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating test folder for our application" />
     <MESSAGE value="html file for creating table" />
-    <option name="LAST_COMMIT_MESSAGE" value="html file for creating table" />
+    <MESSAGE value="title" />
+    <MESSAGE value="creating first table" />
+    <MESSAGE value="creating second table" />
+    <MESSAGE value="creating third table" />
+    <MESSAGE value="third table created" />
+    <option name="LAST_COMMIT_MESSAGE" value="third table created" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1595935405189">
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1595936060811">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595935405189" />
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595936060811" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1595934804322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
