@@ -78,3 +78,61 @@ include_once('php_include/connection.php');
          //document.getElementById("calendar_view").innerHTML = "processing...";
        }
        </script>
+       <?php include_once("page_header.php"); ?>
+       </head>
+       <!-- THIS IS THE CALENDAR VIEW -->
+       <!-- <?php /*include ('calendar_start.php');*/ ?> -->
+       <body onLoad="start_calendar_view();">
+
+       <div id="calendar_view"></div>
+
+       <!-- THIS IS THE SELECT BOX SECTION -->
+       <div id="timeSelection">
+
+
+         <!-- drop down selectable options begin here -->
+       	<form name="selectedDate" action="checkDate.php" method="post">
+           <!-- WHY DO I NEED THIS LINE BELOW ************************ -->
+           <input type="hidden" value="makes_it_work" />
+
+         <p>Please select the time of your requested appointment</p>
+         <select name="time">
+           <?php
+           foreach($db->query('SELECT * FROM timelist') as $row) {
+             $timelistid = $row['id'];
+             $timeslot = $row['timeslot'];
+             $elementId = $row['elementid'];
+             echo "<option value='" . $elementId ."'>" . $timeslot . "</option>";
+           }
+           ?>
+         </select>
+       <!--
+       	<p>Please select the day of your requested appointment</p>
+       	<select name="day">
+           <?php /*
+           // How does that loop through the dates and then hit the relevant cell id?
+           foreach($weekdays as $day) {
+           $dayid=0;
+           echo "<option value='" . $day . "'>" . $day . "</option>";
+           $i++;
+           }
+       */
+           ?>
+       	</select>
+       -->
+       	<br />
+         <p>Date Request</p>
+         <input type="date" name="mydate" />
+         <br /><br />
+       	<input type="submit" value="Submit" name="request_booking" />
+
+       	<form>
+       	<br /><br /><hr /><br />
+
+       	<a href="#">Please click here to return to the homepage</a>
+       </div>
+
+       <div class="empty"></div>
+
+       </body>
+       </html>
