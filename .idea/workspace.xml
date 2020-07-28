@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bef6ef98-4c3e-484f-b9d4-c5bf544c265a" name="Default Changelist" comment="" />
+    <list default="true" id="bef6ef98-4c3e-484f-b9d4-c5bf544c265a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/registration.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,14 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595934789779</updated>
-      <workItem from="1595934791936" duration="11597000" />
-    </task>
-    <task id="LOCAL-00008" summary="creating of fourth table">
-      <created>1595936084706</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1595936084706</updated>
+      <workItem from="1595934791936" duration="11895000" />
     </task>
     <task id="LOCAL-00009" summary="fifth table">
       <created>1595936152256</created>
@@ -391,14 +386,20 @@
       <option name="project" value="LOCAL" />
       <updated>1595948099468</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="frontpage of our application">
+      <created>1595948197405</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1595948197405</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="open terms function and adding events" />
     <MESSAGE value="  onblur() is when the user stops interating with an element and goes to another element on the page&#10;    in this case onblur() calls the checkusername() function&#10;  onkeyup() everytime they release a key it fires off to the restrict('') function to check that the contents of the field are allowed through RegExp - regualar expressions&#10;    check the restrict() function above to see how it calls the the PHP&#10;  onfocus() is when the user interacts with the element, so in this case emptyElement() function &#10;    which is a bespoke function that clears the element, in this case the status &lt;span&gt; underneath the form fields" />
     <MESSAGE value="Page Header for styling purpose" />
     <MESSAGE value="call this NAME CHECK code to execute" />
@@ -423,13 +424,14 @@
     <MESSAGE value="code for produce tomorrow day" />
     <MESSAGE value="file for creating and testing first monday of every week" />
     <MESSAGE value="creating style of our application front page" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating style of our application front page" />
+    <MESSAGE value="frontpage of our application" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontpage of our application" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1595948098453">
+    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1595948195953">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595948098453" />
+    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595948195953" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1595934804322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -442,9 +444,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="415" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595934885582" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595947945365">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595948222569">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595947945365" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595948222569" />
   </component>
 </project>
