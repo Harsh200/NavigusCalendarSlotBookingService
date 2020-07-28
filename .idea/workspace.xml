@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef6ef98-4c3e-484f-b9d4-c5bf544c265a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/calendarViewCorrect.php" beforeDir="false" afterPath="$PROJECT_DIR$/calendarViewCorrect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar_start.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595934789779</updated>
-      <workItem from="1595934791936" duration="8349000" />
+      <workItem from="1595934791936" duration="8684000" />
     </task>
     <task id="LOCAL-00001" summary="Creating test folder for our application">
       <created>1595935154899</created>
@@ -344,15 +344,34 @@
       <option name="project" value="LOCAL" />
       <updated>1595944589648</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="creating new next function with xmlhttprequest to provide details">
+      <created>1595944871703</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1595944871703</updated>
+    </task>
+    <task id="LOCAL-00044" summary="creating prev function with xmlhttprequest to provide details">
+      <created>1595944991704</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1595944991704</updated>
+    </task>
+    <task id="LOCAL-00045" summary="adding the calendarViewCorrect.php page as a test before uploading result of the project">
+      <created>1595945106547</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1595945106547</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="some change in doc document" />
-    <MESSAGE value="creating form for login page" />
     <MESSAGE value="email,password and login button are fields of form" />
     <MESSAGE value="creating registration page" />
     <MESSAGE value="If user is logged in, header them away" />
@@ -376,13 +395,15 @@
     <MESSAGE value="adding calendar views" />
     <MESSAGE value="start calendar view function with xml http request object" />
     <MESSAGE value="creating new next function with xmlhttprequest to provide details" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating new next function with xmlhttprequest to provide details" />
+    <MESSAGE value="creating prev function with xmlhttprequest to provide details" />
+    <MESSAGE value="adding the calendarViewCorrect.php page as a test before uploading result of the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding the calendarViewCorrect.php page as a test before uploading result of the project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="0" key="CommitChangelistDialog2" timestamp="1595944870191">
+    <state x="469" y="0" key="CommitChangelistDialog2" timestamp="1595945105409">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="533" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595944870191" />
+    <state x="469" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595945105409" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1595934804322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -395,9 +416,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="415" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595934885582" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595944662053">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595945148288">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595944662053" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595945148288" />
   </component>
 </project>
