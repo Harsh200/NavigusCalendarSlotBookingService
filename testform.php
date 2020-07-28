@@ -19,3 +19,18 @@ function restrict(elem){
 function emptyElement(x){
    _(x).innerHTML = "";
  }
+ function checkusername(){
+   var u = _("username").value;
+   if(u != ""){
+     _("unamestatus").innerHTML = 'checking ...';
+     var ajax = ajaxObj("POST", "usernamecheck.php");
+         ajax.onreadystatechange = function() {
+           if(ajaxReturn(ajax) == true) {
+               _("unamestatus").innerHTML = ajax.responseText;
+           }
+         }
+         ajax.send("usernamecheck="+u);
+   }
+ }
+ </script>
+ </head>
