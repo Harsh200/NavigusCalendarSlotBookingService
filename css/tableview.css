@@ -32,7 +32,7 @@ header{
 #logo{
     max-width:1210px;
     margin:0px auto;
-    float:auto;
+
 }
 img {
     max-width:100%;
@@ -58,8 +58,8 @@ h1 {
     float:left;
     width:762px;
     margin-top:10px;
-    padding: 10px 0 10px 0;*/
-font-size:20pt;
+    padding: 10px 0 10px 0;
+
     text-align:center;
     background-color:white;
     border-radius:5px;
@@ -88,17 +88,17 @@ font-size:20pt;
 #calendar_view{
     max-width:1210px;
     margin:auto;
-    float:auto;
+
 }
 #main{
     max-width:1210px;
     background-color:white;
     padding:10px;
-    float:auto;
+
     margin:auto;
 }
 #wkcommencing{
-    float:auto;
+    float:left;
     width:600px;
 }
 #today{
@@ -110,10 +110,10 @@ font-size:20pt;
     width:1210px;
 }
 table{
-    float:auto;
+    float:left;
     border-collapse: collapse;
     table-layout:fixed;
-    width:1200;
+
 }
 th{
     border: #CCC 1px solid;
@@ -134,9 +134,11 @@ td{
 #timeSelection{
     max-width:1210px;
     margin:auto;
-    float:auto;
+    float:left;
 }
-
+/*.timecell{
+  width:183px;
+}*/
 .clear {
     clear:both;
 }

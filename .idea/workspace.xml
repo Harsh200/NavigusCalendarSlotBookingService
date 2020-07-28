@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bef6ef98-4c3e-484f-b9d4-c5bf544c265a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/registration.css" afterDir="false" />
-    </list>
+    <list default="true" id="bef6ef98-4c3e-484f-b9d4-c5bf544c265a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,21 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595934789779</updated>
-      <workItem from="1595934791936" duration="11895000" />
-    </task>
-    <task id="LOCAL-00009" summary="fifth table">
-      <created>1595936152256</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1595936152256</updated>
-    </task>
-    <task id="LOCAL-00010" summary="index.php file creating">
-      <created>1595936243426</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1595936243426</updated>
+      <workItem from="1595934791936" duration="12242000" />
     </task>
     <task id="LOCAL-00011" summary="providing link for frontpage and icon">
       <created>1595936999990</created>
@@ -393,15 +377,27 @@
       <option name="project" value="LOCAL" />
       <updated>1595948197405</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary=" adding registration page styling">
+      <created>1595948467400</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1595948467400</updated>
+    </task>
+    <task id="LOCAL-00059" summary=" adding tableview.css for table styling">
+      <created>1595948719955</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1595948719955</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="  onblur() is when the user stops interating with an element and goes to another element on the page&#10;    in this case onblur() calls the checkusername() function&#10;  onkeyup() everytime they release a key it fires off to the restrict('') function to check that the contents of the field are allowed through RegExp - regualar expressions&#10;    check the restrict() function above to see how it calls the the PHP&#10;  onfocus() is when the user interacts with the element, so in this case emptyElement() function &#10;    which is a bespoke function that clears the element, in this case the status &lt;span&gt; underneath the form fields" />
-    <MESSAGE value="Page Header for styling purpose" />
     <MESSAGE value="call this NAME CHECK code to execute" />
     <MESSAGE value="references and link" />
     <MESSAGE value="Regular Expressions used to check chars going into email &amp; username" />
@@ -425,13 +421,15 @@
     <MESSAGE value="file for creating and testing first monday of every week" />
     <MESSAGE value="creating style of our application front page" />
     <MESSAGE value="frontpage of our application" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontpage of our application" />
+    <MESSAGE value=" adding registration page styling" />
+    <MESSAGE value=" adding tableview.css for table styling" />
+    <option name="LAST_COMMIT_MESSAGE" value=" adding tableview.css for table styling" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1595948195953">
+    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1595948718602">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595948195953" />
+    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595948718602" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1595934804322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -444,9 +442,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="415" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595934885582" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595948222569">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595948776447">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595948222569" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595948776447" />
   </component>
 </project>
