@@ -187,3 +187,27 @@ if(isset($_POST["u"])){
        <body>
 
        <?php include_once("page_header.php"); ?>
+       amestatus"></span>
+
+       			<br /><label class="labelwidth" for="email">Email:</label>
+       			<input type="text" id="email" onfocus="emptyElement('status')" onkeyup="restrict('email')" maxlength="88">
+             <span id="emailstatus"></span>
+
+       			<br /><label class="labelwidth" for="pass1">Password:</label>
+       			<input type="password" id="pass1" onfocus="emptyElement('loginissue')" maxlength="16">
+
+       			<br /><label class="labelwidth" for="pass2">Re-type password:</label>
+       			<input type="password" id="pass2" onfocus="emptyElement('loginissue')" maxlength="16">
+             <span id="password_match"></span>
+
+             <br /><br /><div id="status"></div>
+
+       			<br /><button id="registerbtn" onclick="signup()">Register</button>
+
+       	</form>
+       	<br />
+       	<p>Please click <a href="index.php">here</a> to return to the homepage</p>
+       </div>
+
+       </body>
+       </html>
