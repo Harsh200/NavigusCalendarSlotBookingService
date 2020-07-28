@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bef6ef98-4c3e-484f-b9d4-c5bf544c265a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/registration_page.php" afterDir="false" />
-    </list>
+    <list default="true" id="bef6ef98-4c3e-484f-b9d4-c5bf544c265a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595934789779</updated>
-      <workItem from="1595934791936" duration="3606000" />
+      <workItem from="1595934791936" duration="3959000" />
     </task>
     <task id="LOCAL-00001" summary="Creating test folder for our application">
       <created>1595935154899</created>
@@ -190,7 +188,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595938269650</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="creating registration page">
+      <created>1595938556234</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1595938556234</updated>
+    </task>
+    <task id="LOCAL-00022" summary="If user is logged in, header them away">
+      <created>1595938643251</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1595938643251</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,13 +229,15 @@
     <MESSAGE value="some change in doc document" />
     <MESSAGE value="creating form for login page" />
     <MESSAGE value="email,password and login button are fields of form" />
-    <option name="LAST_COMMIT_MESSAGE" value="email,password and login button are fields of form" />
+    <MESSAGE value="creating registration page" />
+    <MESSAGE value="If user is logged in, header them away" />
+    <option name="LAST_COMMIT_MESSAGE" value="If user is logged in, header them away" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="522" y="0" key="CommitChangelistDialog2" timestamp="1595938268466">
+    <state x="522" y="0" key="CommitChangelistDialog2" timestamp="1595938642126">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="522" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595938268466" />
+    <state x="522" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595938642126" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1595934804322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -236,9 +250,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="415" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595934885582" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595938138253">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595938714243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595938138253" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595938714243" />
   </component>
 </project>
