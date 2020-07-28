@@ -58,3 +58,23 @@ include_once('php_include/connection.php');
        //document.getElementById("calendar_view").innerHTML = "processing...";
      }
      </script>
+     <script>
+       function prev_week() {
+         var hr = new XMLHttpRequest();
+         var url = "calendar_start.php";
+         var weekinmilliseconds = 1000*60*60*24*7;// a week in milliseconds
+         var now = weekstart - weekinmilliseconds;// previous weekstart added to an extra week to provide the next weekstart date :)
+         weekstart = now;
+         var vars = "weekstart="+weekstart;
+         hr.open("POST", url, true);
+         hr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+         hr.onreadystatechange = function() {
+           if(hr.readyState == 4 && hr.status == 200) {
+             var return_data = hr.responseText;
+               document.getElementById("calendar_view").innerHTML = return_data;
+           }
+         }
+         hr.send(vars); // this function kicks off the request and code above
+         //document.getElementById("calendar_view").innerHTML = "processing...";
+       }
+       </script>
