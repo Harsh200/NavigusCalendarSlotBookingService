@@ -110,3 +110,17 @@ if(isset($_POST["u"])){
        <script src="js/ajax.js"></script>
 
        <script>
+       function restrict(elem){
+         var tf = _(elem);
+         var rx = new RegExp;
+         if(elem == "email"){
+           rx = /[' "]/gi;
+         } else if(elem == "username"){
+           rx = /[^a-z0-9]/gi;
+         } else if(elem == "firstname"){
+           rx = /[^a-z0-9]/gi;
+         } else if(elem == "lastname"){
+           rx = /[^a-z0-9]/gi;
+         }
+         tf.value = tf.value.replace(rx, "");
+       }
