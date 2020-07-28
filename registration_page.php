@@ -173,3 +173,17 @@ if(isset($_POST["u"])){
                ajax.send("fn="+fn+"&ln="+ln+"&u="+u+"&e="+e+"&p="+p1);
          }
        }
+       function openTerms(){
+         _("terms").style.display = "block";
+         emptyElement("status");
+       }
+       /* function addEvents(){
+         _("elemID").addEventListener("click", func, false);
+       }
+       window.onload = addEvents; */
+       </script>
+       </head>
+
+       <body>
+
+       <?php include_once("page_header.php"); ?>
