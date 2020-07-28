@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef6ef98-4c3e-484f-b9d4-c5bf544c265a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/date_time.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/date_time.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/date_time.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,21 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595934789779</updated>
-      <workItem from="1595934791936" duration="9910000" />
-    </task>
-    <task id="LOCAL-00001" summary="Creating test folder for our application">
-      <created>1595935154899</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1595935154899</updated>
-    </task>
-    <task id="LOCAL-00002" summary="html file for creating table">
-      <created>1595935406822</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1595935406822</updated>
+      <workItem from="1595934791936" duration="10250000" />
     </task>
     <task id="LOCAL-00003" summary="title">
       <created>1595935775702</created>
@@ -393,15 +379,27 @@
       <option name="project" value="LOCAL" />
       <updated>1595946162886</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="code for determining first Monday of the week">
+      <created>1595946451188</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1595946451188</updated>
+    </task>
+    <task id="LOCAL-00051" summary="array for weekdays with date">
+      <created>1595946630110</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1595946630110</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="calls this REGISTRATION code to execute" />
-    <MESSAGE value="add user info in the database" />
     <MESSAGE value=" Email the user their activation link" />
     <MESSAGE value="changes in reference links" />
     <MESSAGE value="reference to registration page with doctype html" />
@@ -425,13 +423,15 @@
     <MESSAGE value="checking booking slot is free or not" />
     <MESSAGE value="set time table function function created for adding scheduled in the database" />
     <MESSAGE value="creating the days of the week to show at top of calendar" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating the days of the week to show at top of calendar" />
+    <MESSAGE value="code for determining first Monday of the week" />
+    <MESSAGE value="array for weekdays with date" />
+    <option name="LAST_COMMIT_MESSAGE" value="array for weekdays with date" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="331" y="0" key="CommitChangelistDialog2" timestamp="1595946161322">
+    <state x="331" y="0" key="CommitChangelistDialog2" timestamp="1595946628800">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595946161322" />
+    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595946628800" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1595934804322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -444,9 +444,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="415" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595934885582" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595946179152">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595946702979">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595946179152" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595946702979" />
   </component>
 </project>
