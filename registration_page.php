@@ -87,3 +87,17 @@ if(isset($_POST["u"])){
         if (!file_exists("user/$u")) {
           mkdir("user/$u", 0755);
         }
+        $to = "$e";
+           $from = "harshsaxena163@gmail.com";
+           $subject = 'Calendar based Booking slot System Account Activation';
+           $message = '<!DOCTYPE html><html><head><meta charset="UTF-8"><title>yoursitename Message</title></head><body style="margin:0px; font-family:Tahoma, Geneva, sans-serif;"><div style="padding:10px; background:#333; font-size:24px; color:#CCC;"><a href="http://www.kgtdev.com"><img src="http://www.kgtdev.com/dental/images/kgtdevlogoresized.jpg" width="36" height="30" alt="kgtdev.com" style="border:none; float:left;"></a>Booking System Account Activation</div><div style="padding:24px; font-size:17px;">Hello '.$u.',<br /><br />Click the link below to activate your account when ready:<br /><br /><a href="http://www.kgtdev.com/activation.php?id='.$uid.'&u='.$u.'&e='.$e.'&p">Click here to activate your account now</a><br /><br />Login after successful activation using your:<br />* E-mail Address: <b>'.$e.'</b></div></body></html>';
+           $headers = "From: $from\n";
+               $headers .= "MIME-Version: 1.0\n";
+               $headers .= "Content-type: text/html; charset=iso-8859-1\n";
+           mail($to, $subject, $message, $headers);
+           echo "signup_success";
+           exit();
+         }
+         exit();
+       }
+       ?>
