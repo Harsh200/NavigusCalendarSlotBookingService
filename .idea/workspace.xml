@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bef6ef98-4c3e-484f-b9d4-c5bf544c265a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/registration_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/registration_page.php" afterDir="false" />
-    </list>
+    <list default="true" id="bef6ef98-4c3e-484f-b9d4-c5bf544c265a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595934789779</updated>
-      <workItem from="1595934791936" duration="4579000" />
+      <workItem from="1595934791936" duration="4956000" />
     </task>
     <task id="LOCAL-00001" summary="Creating test folder for our application">
       <created>1595935154899</created>
@@ -232,17 +230,41 @@
       <option name="project" value="LOCAL" />
       <updated>1595939386839</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="changes in reference links">
+      <created>1595939567487</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1595939567487</updated>
+    </task>
+    <task id="LOCAL-00028" summary="reference to registration page with doctype html">
+      <created>1595939623018</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1595939623018</updated>
+    </task>
+    <task id="LOCAL-00029" summary="form validation for checking chars in email and username">
+      <created>1595939735688</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1595939735688</updated>
+    </task>
+    <task id="LOCAL-00030" summary="function to empty the didv at the bottomg of the page when the user interacts with the email field">
+      <created>1595939801480</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1595939801480</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="html file for creating table" />
-    <MESSAGE value="title" />
-    <MESSAGE value="creating first table" />
-    <MESSAGE value="creating second table" />
     <MESSAGE value="creating third table" />
     <MESSAGE value="third table created" />
     <MESSAGE value="creating of fourth table" />
@@ -264,13 +286,17 @@
     <MESSAGE value="calls this REGISTRATION code to execute" />
     <MESSAGE value="add user info in the database" />
     <MESSAGE value=" Email the user their activation link" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Email the user their activation link" />
+    <MESSAGE value="changes in reference links" />
+    <MESSAGE value="reference to registration page with doctype html" />
+    <MESSAGE value="form validation for checking chars in email and username" />
+    <MESSAGE value="function to empty the didv at the bottomg of the page when the user interacts with the email field" />
+    <option name="LAST_COMMIT_MESSAGE" value="function to empty the didv at the bottomg of the page when the user interacts with the email field" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="522" y="0" key="CommitChangelistDialog2" timestamp="1595939385544">
+    <state x="522" y="0" key="CommitChangelistDialog2" timestamp="1595939800259">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="522" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595939385544" />
+    <state x="522" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595939800259" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1595934804322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -283,9 +309,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="415" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595934885582" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595939161591">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595939680940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595939161591" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595939680940" />
   </component>
 </project>

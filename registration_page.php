@@ -141,3 +141,35 @@ if(isset($_POST["u"])){
                ajax.send("usernamecheck="+u);
          }
        }
+       function signup(){
+         var fn = _("firstname").value;
+         var ln = _("lastname").value;
+         var u = _("username").value;
+         var e = _("email").value;
+         var p1 = _("pass1").value;
+         var p2 = _("pass2").value;
+         //var c = _("country").value;
+         //var g = _("gender").value;
+         var status = _("status");
+         if(fn == "" || ln == "" || u == "" || e == "" || p1 == "" || p2 == ""){
+           status.innerHTML = "Please fill out all of the form data";
+         } else if(p1 != p2){
+           status.innerHTML = "Your password fields do not match";
+         } else {
+           _("registerbtn").style.display = "none";
+           status.innerHTML = 'please wait ...';
+           var ajax = ajaxObj("POST", "registration_page.php");
+               ajax.onreadystatechange = function() {
+                 if(ajaxReturn(ajax) == true) {
+                     if(ajax.responseText != "signup_success"){
+                 status.innerHTML = ajax.responseText;
+                 _("registerbtn").style.display = "block";
+               } else {
+                 window.scrollTo(0,0);
+                 _("registration_form").innerHTML = "OK "+u+", check your email inbox and junk mail box at <u>"+e+"</u> in a moment to complete the sign up process by activating your account. You will not be able to do anything on the site until you successfully activate your account.";
+               }
+                 }
+               }
+               ajax.send("fn="+fn+"&ln="+ln+"&u="+u+"&e="+e+"&p="+p1);
+         }
+       }
