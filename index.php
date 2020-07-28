@@ -12,7 +12,7 @@
 <?php include_once("page_header.php"); ?>
 <div id="main">
 	<h3>Welcome to the Calendar Based Slot Booking system. Please click <a href="login_page.php">here</a> to login and make an appointment.</h3>
-
+<h3>Don't have an account? Dont Worry, just Click <a href="registration_page.php">here</a> to register and enjoy the convenience of our caledar based slot booking system.</h3>
 
 </div>
 </body>
