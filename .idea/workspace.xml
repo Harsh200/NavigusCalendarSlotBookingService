@@ -46,14 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595934789779</updated>
-      <workItem from="1595934791936" duration="10572000" />
-    </task>
-    <task id="LOCAL-00004" summary="creating first table">
-      <created>1595935885416</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1595935885416</updated>
+      <workItem from="1595934791936" duration="10870000" />
     </task>
     <task id="LOCAL-00005" summary="creating second table">
       <created>1595935939647</created>
@@ -391,14 +384,20 @@
       <option name="project" value="LOCAL" />
       <updated>1595946797148</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="insert into database here and choose to connect and insert into the database goes here">
+      <created>1595947365276</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1595947365276</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changes in reference links" />
     <MESSAGE value="reference to registration page with doctype html" />
     <MESSAGE value="form validation for checking chars in email and username" />
     <MESSAGE value="signup function" />
@@ -423,13 +422,14 @@
     <MESSAGE value="code for determining first Monday of the week" />
     <MESSAGE value="array for weekdays with date" />
     <MESSAGE value="adding closing braces" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding closing braces" />
+    <MESSAGE value="insert into database here and choose to connect and insert into the database goes here" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert into database here and choose to connect and insert into the database goes here" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="331" y="0" key="CommitChangelistDialog2" timestamp="1595946795773">
+    <state x="331" y="0" key="CommitChangelistDialog2" timestamp="1595947363746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595946795773" />
+    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595947363745" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1595934804322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
