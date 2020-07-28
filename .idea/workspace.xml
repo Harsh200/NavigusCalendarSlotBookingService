@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef6ef98-4c3e-484f-b9d4-c5bf544c265a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/dateTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/date_time.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595934789779</updated>
-      <workItem from="1595934791936" duration="9595000" />
+      <workItem from="1595934791936" duration="9910000" />
     </task>
     <task id="LOCAL-00001" summary="Creating test folder for our application">
       <created>1595935154899</created>
@@ -387,14 +386,20 @@
       <option name="project" value="LOCAL" />
       <updated>1595945761109</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="creating the days of the week to show at top of calendar">
+      <created>1595946162886</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1595946162886</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="call this name to execute" />
     <MESSAGE value="calls this REGISTRATION code to execute" />
     <MESSAGE value="add user info in the database" />
     <MESSAGE value=" Email the user their activation link" />
@@ -419,13 +424,14 @@
     <MESSAGE value="adding the calendar_start.php file to project" />
     <MESSAGE value="checking booking slot is free or not" />
     <MESSAGE value="set time table function function created for adding scheduled in the database" />
-    <option name="LAST_COMMIT_MESSAGE" value="set time table function function created for adding scheduled in the database" />
+    <MESSAGE value="creating the days of the week to show at top of calendar" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating the days of the week to show at top of calendar" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="331" y="0" key="CommitChangelistDialog2" timestamp="1595945759787">
+    <state x="331" y="0" key="CommitChangelistDialog2" timestamp="1595946161322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595945759787" />
+    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595946161322" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1595934804322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -438,9 +444,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="415" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595934885582" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595945599062">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595946179152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595945599062" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595946179152" />
   </component>
 </project>
